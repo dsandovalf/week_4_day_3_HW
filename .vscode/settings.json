@@ -1,0 +1,22 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "whiteboard",
+            "connectString": "postgres://vltaylgm:HrzZ9ol1QuHDcyr4yJfhMx_eRrhsWwbx@fanny.db.elephantsql.com/vltaylgm"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "presidents_join",
+            "connectString": "postgres://ydcsakte:vwP4Sre1RB65MwpynWmeCTpNVgci8FEf@fanny.db.elephantsql.com/ydcsakte"
+        }
+    ]
+}

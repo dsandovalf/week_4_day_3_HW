@@ -1,0 +1,16 @@
+-- Create Two Tables:
+    -- customer table
+        -- customer_id <-- PK
+        -- first_name : string's length of 100
+        -- last_name  : string's length of 100
+        -- email : string's length of 200
+        -- address  : string's length of 150
+        -- city  : string's length of 150
+        -- customer_state  : string's length of 100
+        -- zip code  : string's length of 50
+
+    -- order table
+        -- order_id <-- PK
+        -- order_date : if nothing is inserted use the current date
+        -- amount : number with 2 decimal places
+        -- customer_id <-- FK
